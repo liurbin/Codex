@@ -33,3 +33,7 @@ wire_api = "chat"
 model_provider = "azure"
 model = "gpt-5"
 preferred_auth_method = "apikey"
+
+model_reasoning_effort = "high"
+model_reasoning_summary = "detailed"
+
