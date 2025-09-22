@@ -37,6 +37,7 @@ codex --help
 [model_providers.azure]
 name = "Azure"
 base_url = "https://<your-resource-name>.openai.azure.com/"
+//if not work, try like this: https://<your-resource-name>.openai.azure.com/openai/deployments/gpt-5
 api_key = "your-azure-openai-key"     # 直接写入 Key
 query_params = { api-version = "2025-04-01-preview" }
 wire_api = "chat"
