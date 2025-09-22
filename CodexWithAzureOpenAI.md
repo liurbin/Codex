@@ -8,8 +8,11 @@
 > 建议在发布前用占位符（如 `your-key-here`）替换。
 
 ---
+## 1. 安装Codex: npm i -g @openai/codex
 
-## 1. 获取 Azure OpenAI Key
+---
+
+## 2. 获取 Azure OpenAI Key
 1. 登录 [Azure AI Studio](https://ai.azure.com/)  
 2. 打开你创建的 **Azure OpenAI 项目**  
 3. 在左侧导航选择 **Resource details（资源详情）**  
@@ -17,7 +20,7 @@
 
 ---
 
-## 2. 配置 `config.toml`
+## 3. 配置 `config.toml`
 
 在项目根目录下创建或修改 `config.toml`，并直接写入 Key：
 
@@ -36,4 +39,5 @@ preferred_auth_method = "apikey"
 
 model_reasoning_effort = "high"
 model_reasoning_summary = "detailed"
+
 
