@@ -45,6 +45,7 @@ preferred_auth_method = "apikey"
 
 model_reasoning_effort = "high"
 model_reasoning_summary = "detailed"
+···
 
 ## 4. 继续
 
