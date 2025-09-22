@@ -14,6 +14,7 @@
 ```toml
 npm i -g @openai/codex
 ```
+
 验证是否安装成功
 ```toml
 codex --help
