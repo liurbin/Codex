@@ -11,12 +11,12 @@
 ## 1. 安装Codex
 
 全局安装 Codex
-```toml
+```bash
 npm i -g @openai/codex
 ```
 
 验证是否安装成功
-```toml
+```bash
 codex --help
 ```
 ---
@@ -51,7 +51,7 @@ model_reasoning_summary = "detailed"
 ```
 
 ## 4. 使用azure_gpt profile启动Codex
-```toml
+```bash
 codex --profile azure_gpt
 ```
 ## 5. Enjoy Codex with AzureOpenAI
