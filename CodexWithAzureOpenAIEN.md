@@ -35,6 +35,7 @@ In the root of your project, create or modify `config.toml`, directly putting in
 [model_providers.azure]
 name = "Azure"
 base_url = "https://<your-resource-name>.openai.azure.com/"
+# if not work, try like this: https://<your-resource-name>.openai.azure.com/openai/deployments/gpt-5
 api_key = "your-azure-openai-key"     # write the Key directly
 query_params = { api-version = "2025-04-01-preview" }
 wire_api = "chat"
