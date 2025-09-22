@@ -9,7 +9,12 @@
 
 ---
 ## 1. 安装Codex
+
+全局安装 Codex：
 npm i -g @openai/codex
+
+验证是否安装成功：
+codex --help
 
 ---
 
