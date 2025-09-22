@@ -10,12 +10,14 @@
 ---
 ## 1. 安装Codex
 
-全局安装 Codex：
+全局安装 Codex
+```toml
 npm i -g @openai/codex
-
-验证是否安装成功：
+```
+验证是否安装成功
+```toml
 codex --help
-
+```
 ---
 
 ## 2. 获取 Azure OpenAI Key
@@ -45,9 +47,11 @@ preferred_auth_method = "apikey"
 
 model_reasoning_effort = "high"
 model_reasoning_summary = "detailed"
-···
+```
 
-## 4. 继续
-
-
+## 4. 使用azure_gpt profile启动Codex
+```toml
+codex --profile azure_gpt
+```
+## 5. Enjoy Codex with AzureOpenAI
 
