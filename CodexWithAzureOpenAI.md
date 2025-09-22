@@ -8,7 +8,8 @@
 > 建议在发布前用占位符（如 `your-key-here`）替换。
 
 ---
-## 1. 安装Codex: npm i -g @openai/codex
+## 1. 安装Codex
+npm i -g @openai/codex
 
 ---
 
